@@ -11,7 +11,7 @@
 // TODO: Add error checking to adding todos
 angular.module('projectsApp')
   .controller('MainCtrl', function () {
-    this.todos = ['Item 1', 'Item 2', 'Item 3', 'Item 4'];
+    this.todos = [];
 
     this.addTodo = function(todo) {
       this.todos.push(todo);
