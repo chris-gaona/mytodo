@@ -9,9 +9,5 @@
  */
 angular.module('projectsApp')
   .controller('MainCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    this.todos = ['Item 1', 'Item 2', 'Item 3'];
   });
